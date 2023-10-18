@@ -60,6 +60,8 @@ h1, h2 {
 
 h2 {
     border-bottom: 4px solid #dfdfe2;
+    margin-top: 0;
+    padding-top: 60px;
 }
 
 .sr-only {
@@ -74,6 +76,28 @@ h2 {
     border: 0;
 }
 /* This is the common pattern to visually hide text for only screen readers to read. */
+
+.info {
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.formrow {
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+input {
+    font-size: 18px;
+}
 
 p::before {
     content: "Question #";
