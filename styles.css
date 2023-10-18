@@ -29,6 +29,10 @@ nav > ul > li {
     display: block;
 }
 
+li > a {
+    color: #A7A7AF;
+}
+
 h1, h2 {
     font-family: Verdana, sans-serif;
 }
