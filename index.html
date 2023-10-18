@@ -96,15 +96,34 @@
                 <section role="region" aria-labelledby="css-questions">
                     <h2 id="css-questions">CSS Questions</h2>
                         <div class="formrow">
-                            <div class="question-block"></div>
-                            <div class="answer"></div>
-                            <div class="question-block"></div>
-                            <div class="answer"></div>
+                            <div class="question-block">
+                                <label for="pseudo-element">The pseudo-element ::after used to insert something after the content of each selected element.</label>
+                            </div>
+
+                            <div class="answer">
+                                <select name="yes-no" id="pseudo-element" required>
+                                    <option value="">Select an option</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+
+                            <div class="question-block">
+                                <label for="sr-only">What does the following selector stand for: ".sr-only "?</label>
+                            </div>
+
+                            <div class="answer">
+                                <textarea name="class-selector" id="sr-only" cols="30" rows="10" placeholder="Type in the meaning of the class name."></textarea>
+                            </div>
                         </div>
                 </section>
 
+                <button type="Submit">Send</button>
+
             </form>
         </main>
+
+
 
     </body>
 
